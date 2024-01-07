@@ -9,7 +9,9 @@ npx tailwindcss init
 
 
 ## Installation of TailWind CSS
--------tailwind.config.js--------------------
+
+# Config in tailwind.config.js
+<code>
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -19,8 +21,10 @@ module.exports = {
   },
   plugins: [],
 }
-## Installation of TailWind CSS
--------index.css--------------------
+</code>
+
+# Config in index.css
+
 <code>
 @tailwind base;
 @tailwind components;
