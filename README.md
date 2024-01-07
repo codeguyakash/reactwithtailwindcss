@@ -3,10 +3,12 @@ codeguyakash[dot]gmail[dot]com
 
 
 
-
+## Installation of TailWind CSS
 npm install -D tailwindcss
 npx tailwindcss init
 
+
+## Installation of TailWind CSS
 -------tailwind.config.js--------------------
 module.exports = {
   content: [
@@ -17,8 +19,10 @@ module.exports = {
   },
   plugins: [],
 }
-
+## Installation of TailWind CSS
 -------index.css--------------------
+<code>
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+</code>
