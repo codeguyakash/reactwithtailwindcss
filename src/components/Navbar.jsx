@@ -4,24 +4,18 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className='bg-blue-950 p-5 text-white font-bold flex space-x-5'>
-        <div className='flex-auto space-x-3'>
-          <Link className='text-white-300' to="/">Home</Link>
-          <Link className='text-white-300' to="/">About</Link>
-          <Link className='text-white-300' to="/">Contect</Link>
-        </div>
-        <div className='flex space-x-2'>
-          <div>
-            <input type="text" className='rounded-md pl-2 pr-2 pt-1 pb-1 bg-gray-200 text-black ' />
-          </div>
-          <div>
-            <button className='rounded-md pl-2 pr-2 pt-1 pb-1 bg-gray-200 text-black'>Search</button>
-          </div>
-        </div>
-      </div>
-      <h1 className="text-3xl text-red-600 mt-5 font-bold text-center font-mono">
-        Hello world!
-      </h1>
+      <nav className='w-full h-14 bg-indigo-200 flex justify-between items-center p-4'>
+                <div className='text-2xl text-indigo-900 font-semibold' >codeguyakash</div>
+                <ul className='hidden md:flex font-semibold '>
+                    <li className='mx-[10px] cursor-pointer'>Home</li>
+                    <li className='mx-[10px] cursor-pointer'>About</li>
+                    <li className='mx-[10px] cursor-pointer'>Contact US</li>
+                </ul>
+                <div className='hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer '>Login/Signup</div>
+                <div className='md:hidden'>
+                    <a className='text-4xl' href="#">&#8801;</a>
+                </div>
+            </nav>
     </>
   )
 }

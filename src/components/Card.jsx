@@ -2,14 +2,12 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='bg-red'>
-        <div className='max-w-sm mx-auto bg-red rounded-xl border-spacing-1'>
-            <img src="https://codeguyakash.vercel.app/static/media/hero[]image.c1860895a1156bf5c764.png" alt="img" />
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa praesentium sit?</p>
-        </div>
-    </div>
+    
+      <div className='w-46 flex flex-col justify-evenly mt-12 items-center'>
+        <img className='w-16 block mx-auto' src="https://cdn-icons-png.flaticon.com/512/3227/3227053.png" alt="img" />
+        <p className='text-3xl text-gray-600 font-bold text-center'>600+</p>
+        <p className='text-2xl text-gray-700 font-bold text-center'>Different Course</p>
+      </div>
   )
 }
 
